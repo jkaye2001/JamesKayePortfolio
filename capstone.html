@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>James Kaye - Senior Design Project</title>
+        <link rel="stylesheet" href="./resources/css/capstone.css">
+    </head>
+    <body style="background-color:white;">
+        <!--Logo Area-->
+            <div class="logo_area"></div>
+            <h1 class="logo_top">JAMES</h1>
+            <h1 class="logo_bottom">KAYE</h1>
+        <!--Navbar Background Image-->
+        <div class="nav_background"></div>
+        <!-- Navbar Section-->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="capstone.html">Senior Design Project</a></li>
+                <li><a href="education.html">Educational Projects</a></li>
+                <li><a href="myProjects.html">Personal Projects</a></li>
+                <li><a href="workExperience.html">Work Experience</a></li>
+                <li><a href="entrepreneur.html">Entrepreneur</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://share.hsforms.com/1-8ba-KPESuumvz_ISakO7Aecyxs">Contact Me</a></li>
+                <li><a href="https://www.linkedin.com/in/jamesckaye/">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <!--Block 1-->
+        <div class="capstone_block1">
+            <img class="block1_image" src="resources/img/capstone/capstone-team.png" alt="Team_CLEAR">
+            <p class="block1_caption">Photo Credits: URI ELECOMP and Rachel Schrager</p>
+            <h1 class="block1_title">Project Motivation</h1>
+            <p class="block1_text">During my senior year in the electrical engineering program at URI, I have been able to be a part of Team VoltServer CLEAR sponsored by the company VoltServer from East Greenwich, Rhode Island. CLEAR stands for Colored LED Event Automated Reader and ties to the project's motivation. VoltServer wants to be able to read the LEDs from their products and determine their pre-programmed illumination patterns. One use case is for end-of-line testing in the manufacturing environment. This test device would be used to make sure that the LEDs work properly and are positioned in the correct place. This mundane task is currently being done in person but our product will automate this process. The members of Team CLEAR are shown on the left where you can see me, James Kaye, on the far right side of my colleagues.</p>
+        </div>
+        <!--Block 2-->
+        <div class="capstone_block2">
+            <img class="block2_image" src="resources/img/capstone/capstone_ABO.png" alt="our_ABO">
+            <img class="block2_image2" src="resources/img/capstone/voltserver_product.png" alt="voltserver_leds">
+            <p class="block2_caption">Photo Credits: VoltServer</p>
+            <h1 class="block2_title">Anticipated Best Outcome</h1>
+                <ul>
+                    <li><p class="block2_text">The ABO of this project will consist of:</p></li>              
+                    <li class="abo_list">-Prototype colored LED blink reader that meets all of VoltServer's requirements</li>
+                    <li class="abo_list">-1.5 x 1.5 inch PCB with mounting system to apply to any of VoltServer's devices</li>
+                    <li class="abo_list">-Sensor system that accurately reads colors and display status to user</li>
+                    <li class="abo_list">-A way to detect LED blinks within 1 ms, strength of LEDs, LED location, and more</li>
+                    <li class="abo_list">-User Interface to interact with device through serial communication</li>
+                    <li class="abo_list">-All schematic, layout, and assembly files of all PCB designs</li>
+                    <li class="abo_list">-Corresponding source code for firmware and software</li>
+                    <li class="abo_list">-User manual detailing hardware and software</li>
+                    <li class="abo_list">-Complete bill of materials</li>
+                </ul>                  
+        </div>
+
+        <!--Block 3-->
+        <div class="capstone_block3">
+            <img class="block3_image" src="resources/img/capstone/power_schematic.png" alt="power_schematic">
+            <p class="block3_caption">My Power Schematic Design</p>
+            <h1 class="block3_title">Upgrading Power Systems</h1>
+            <p class="block3_text">My first major addition to the project was to upgrade the old power system for the PCB. 
+                Our PCB was going to decrease in size from the previous year's design so that was one factor to consider. 
+                The previous power system used DC/DC converters which required extra space for capacitors and inductors on 
+                the PCB. In order to simplify the design, I chose to use two voltage regulators that only needed a few 
+                external capacitors instead of the DC/DC converters. 
+            </p>
+        </div>
+        <!--Block 4-->
+        <div class="capstone_block4">
+            <img class="block4_image" src="resources/img/capstone/new_test_setup.jpg" alt="test_setup">
+            <p class="block4_caption">Our Current Testing Appatatus with Dev Boards</p>
+            <h1 class="block4_title">Designing a Testing Apparatus and Procedure</h1>
+            <p class="block4_text">Next, we had to devise a way to test our sensor in different ambient lighting environments 
+                and with the different LED colors we would need to decipher. We agreed on creating a simple setup that would 
+                be cheap, mobile, and easy to manipulate. I suggested using a cardboard piece with a hole to hold the LEDs in 
+                place since it would also allow us to easily change the LEDs and their angle of light onto the sensor. In 
+                order to change the distance, we used ½ inch dowels so that we could move within a 0.5-2 inch range away from 
+                our sensor quickly between tests. I then designed an excel sheet that would record all of our data from each 
+                test and important information about the environment. After performing numerous tests, we compiled our data in 
+                graphs so we could visualize how to build our algorithm for light detection based on color.
+            </p>     
+        </div>
+
+        <!--Footer-->
+        <div>
+            <nav class="footer">
+                <p class = "footer_copyright">Copyright © 2023 James Kaye Electrical Engineer. All rights reserved.</p>
+                <p class = "footer_note">This website was created by James Kaye using a mixture of self-written HTML, CSS and JavaScript along with some external sources such as 000webhost and hubspot.</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="capstone.html">Senior Design Project</a></li>
+                    <li><a href="education.html">Educational Projects</a></li>
+                    <li><a href="myProjects.html">Personal Projects</a></li>
+                    <li><a href="workExperience.html">Work Experience</a></li>
+                    <li><a href="entrepreneur.html">Entrepreneur</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://share.hsforms.com/1-8ba-KPESuumvz_ISakO7Aecyxs">Contact Me</a></li>
+                    <li><a href="https://www.linkedin.com/in/jamesckaye/">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <script src="resources/js/homePage.js"></script>
+    </body>
+</html>
